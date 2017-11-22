@@ -1,0 +1,149 @@
+@import "compass/css3";
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.calendar {
+  overflow: hidden;
+}
+
+/*.toprow {
+  transform: rotate(45deg);
+}
+.bottomrow {
+  transform: rotate(135deg);
+}*/
+
+.toprow, .bottomrow {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  height: 50vh;
+}
+
+.window {
+  transform: rotate(45deg);
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  width: 8%;
+  height: 85vh;
+  align-self: center;
+  margin: 3%;
+  margin-left: -1%;
+}
+
+.window.toprow {
+  transform: rotate(135deg);
+}
+
+h1 {
+  transform: rotate(-45deg);
+  text-align: center;
+  margin: auto;
+}
+
+.toprow h1 {
+  transform: rotate(-135deg);
+  text-align: center;
+  margin-top: auto;
+}
+
+
+
+#no1 {
+  background: blue;
+}
+
+#no2 {
+  background: pink;
+}
+
+#no3 {
+  background: green;
+}
+
+#no4 {
+  background: yellow;
+}
+
+#no5 {
+  background: red;
+}
+
+#no6 {
+  background: black;
+}
+#no7 {
+  background: blue;
+}
+
+#no8 {
+  background: pink;
+}
+
+#no9 {
+  background: green;
+}
+
+#no10 {
+  background: yellow;
+}
+
+#no11 {
+  background: red;
+}
+
+#no12 {
+  background: black;
+}
+#no13 {
+  background: blue;
+}
+
+#no14 {
+  background: pink;
+}
+
+#no15 {
+  background: green;
+}
+
+#no16 {
+  background: yellow;
+}
+
+#no17 {
+  background: red;
+}
+
+#no18 {
+  background: black;
+}
+#no19 {
+  background: blue;
+}
+
+#no20 {
+  background: pink;
+}
+
+#no21 {
+  background: green;
+}
+
+#no22 {
+  background: yellow;
+}
+
+#no23 {
+  background: red;
+}
+
+#no24 {
+  background: black;
+}

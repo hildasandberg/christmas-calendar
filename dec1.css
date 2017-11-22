@@ -1,9 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
+  overflow-x: hidden;
+  background: #ffd93a;
 }
 
 p {
-  text-align: center;
   padding: 50px;
   color: white;
   margin: 0;
@@ -12,36 +17,69 @@ p {
 h1 {
   color: white;
   padding: 20px;
+  box-shadow: 0px 5px 5px 5px #000000;
+
+}
+
+video {
+  width:100%;
+}
+
+
+li {
+  margin-left: 100px;
+  text-align: left;
+  color: white;
+}
+
+.videos {
+  position: relative;
 }
 
 .containerdec1 {
-  padding-top: 20px;
+  position: absolute;
+  padding-top: 100px;
   padding-bottom: 20px;
-  width:50%;
-  background: red;
+  width:40%;
+  background: #ffd93a;
   text-align: center;
-  margin: auto;
+  margin-left: 30%;
 }
 
-.receptdec1 {
-  width: 90%;
+.containerbottomdec1 {
+  position: absolute;
+  margin-top:650px;
+  width:100%;
+  background: #ffd93a;
   text-align: center;
-  background: black;
+  display: flex;
+  flex-flow: row;
+  /*justify-content: flex-end;*/
+  justify-content: space-around;
+  border-bottom: 2px solid black;
+}
+
+
+.receptdec1 {
+  width: 80%;
+  background: #ffd93a;
   margin: auto;
 }
 
 .picturedec1 {
-  padding: 100px;
-  padding-bottom: 10px;
-  border-bottom: 2px solid white;
+  padding: 30px;
+  padding-bottom: 20px;
+  /*border-bottom: 2px solid black;*/
+  text-align: center;
 }
 
 .ingstegdec1 {
-  background-color: grey;
-  border-bottom: 2px solid white;
-  width: 90%;
-  text-align: center;
+  background-color: #ffd93a;
+  width: 50%;
+  height: 400px;
   margin: auto;
+  text-align: center;
+  border: 2px solid black;
 }
 
 #picturedec1 {
@@ -49,4 +87,13 @@ h1 {
   width: 100%;
   padding-top: 100%;
   background-size: cover;
+  border: 2px solid black;
+  box-shadow: 0px 5px 5px 5px #000000;
+
+}
+
+.videoflex {
+  display: flex;
+  width: 100%;
+  height: 900px;
 }

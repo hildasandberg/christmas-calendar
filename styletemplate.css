@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
@@ -14,7 +18,7 @@ h1 {
   padding: 20px;
 }
 
-.containerdec1 {
+.containerdec {
   padding-top: 20px;
   padding-bottom: 20px;
   width:50%;
@@ -23,20 +27,20 @@ h1 {
   margin: auto;
 }
 
-.receptdec1 {
+.receptdec {
   width: 90%;
   text-align: center;
   background: black;
   margin: auto;
 }
 
-.picturedec1 {
+.picturedec {
   padding: 100px;
   padding-bottom: 10px;
   border-bottom: 2px solid white;
 }
 
-.ingstegdec1 {
+.ingstegdec {
   background-color: grey;
   border-bottom: 2px solid white;
   width: 90%;
@@ -44,7 +48,7 @@ h1 {
   margin: auto;
 }
 
-#picturedec1 {
+#picturedec {
   background: url(./images/banankaka.jpg);
   width: 100%;
   padding-top: 100%;

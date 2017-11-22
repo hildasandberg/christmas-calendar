@@ -9,7 +9,21 @@ body {
 }
 
 .calendar {
-  overflow: hidden;
+  /*overflow: hidden;*/
+  padding: 0;
+  margin: 0;
+}
+
+.openPage {
+  /*overflow: hidden;*/
+  height: 80vh;
+  width: 100%;
+  background: red;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
 }
 
 .toprow, .bottomrow {
@@ -20,7 +34,8 @@ body {
   align-content: center;
   justify-content: space-between;
   overflow: hidden;
-  height: 50vh;
+  width: 100%;
+  height: 10vh;
 }
 
 .window {

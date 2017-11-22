@@ -9,16 +9,12 @@ body {
 }
 
 .calendar {
-  /*overflow: hidden;*/
   padding: 0;
   margin: 0;
 }
 
 .openPage {
-  /*overflow: hidden;*/
-  height: 80vh;
-  width: 100%;
-  background: red;
+  display: none;
 }
 
 iframe {
@@ -35,7 +31,7 @@ iframe {
   justify-content: space-between;
   overflow: hidden;
   width: 100%;
-  height: 10vh;
+  height: 50vh;
 }
 
 .window {
@@ -54,9 +50,18 @@ iframe {
   transform: rotate(135deg);
 }
 
+#no12 {
+  border-left: 1px solid;
+  border-color: rgba(255, 255, 255, 0.9);
+}
+
+#no13 {
+  border-left: 1px solid;
+  border-color: rgba(255, 255, 255, 0.9);
+}
+
 h1 {
   font-family: 'Scope One' , serif;
-  /*font-weight: 400;*/
   font-size: 30px;
   font-weight: normal;
   transform: rotate(-45deg);
@@ -67,8 +72,8 @@ h1 {
 
 .toprow h1 {
   transform: rotate(-135deg);
-  text-align: center;
   margin-top: auto;
+  margin: auto;
 }
 
 .window:hover {
@@ -81,100 +86,18 @@ h1 {
   font-size: 45px;
 }
 
+/*WHEN A WINDOW GETS OPEN*/
 
-/*#no1 {
-  background: blue;
-}
 
-#no2 {
-  background: pink;
-}
-
-#no3 {
-  background: green;
-}
-
-#no4 {
-  background: yellow;
-}
-
-#no5 {
+/*WHEN CLICKING ON OPEN WINDOW*/
+.expand.openPage {
+  /*overflow: hidden;*/
+  height: 80vh;
+  width: 100%;
   background: red;
+  display: block;
 }
 
-#no6 {
-  background: black;
+.expand.toprow, .expand.bottomrow {
+  height: 10vh;
 }
-#no7 {
-  background: blue;
-}
-
-#no8 {
-  background: pink;
-}
-
-#no9 {
-  background: green;
-}
-
-#no10 {
-  background: yellow;
-}
-
-#no11 {
-  background: red;
-}*/
-
-#no12 {
-  border-left: 1px solid;
-  border-color: rgba(255, 255, 255, 0.9);
-}
-
-#no13 {
-  border-left: 1px solid;
-  border-color: rgba(255, 255, 255, 0.9);
-}
-
-/*
-#no14 {
-  background: pink;
-}
-
-#no15 {
-  background: green;
-}
-
-#no16 {
-  background: yellow;
-}
-
-#no17 {
-  background: red;
-}
-
-#no18 {
-  background: black;
-}
-#no19 {
-  background: blue;
-}
-
-#no20 {
-  background: pink;
-}
-
-#no21 {
-  background: green;
-}
-
-#no22 {
-  background: yellow;
-}
-
-#no23 {
-  background: red;
-}
-
-#no24 {
-  background: black;
-}*/

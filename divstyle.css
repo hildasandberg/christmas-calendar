@@ -1,26 +1,24 @@
 @import "compass/css3";
+@import url('https://fonts.googleapis.com/css?family=Scope+One');
 
 body {
   padding: 0;
   margin: 0;
+  background-image: url(./images/background_1.jpg);
+  background-size: cover;
 }
 
 .calendar {
   overflow: hidden;
 }
 
-/*.toprow {
-  transform: rotate(45deg);
-}
-.bottomrow {
-  transform: rotate(135deg);
-}*/
-
 .toprow, .bottomrow {
   padding: 0;
   margin: 0;
   display: flex;
   flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
   overflow: hidden;
   height: 50vh;
 }
@@ -30,11 +28,11 @@ body {
   overflow: hidden;
   padding: 0;
   margin: 0;
-  width: 8%;
+  width: 6%;
   height: 85vh;
   align-self: center;
-  margin: 3%;
-  margin-left: -1%;
+  border-right: 1px solid;
+  border-color: rgba(255, 255, 255, 0.9);
 }
 
 .window.toprow {
@@ -42,9 +40,14 @@ body {
 }
 
 h1 {
+  font-family: 'Scope One' , serif;
+  /*font-weight: 400;*/
+  font-size: 30px;
+  font-weight: normal;
   transform: rotate(-45deg);
   text-align: center;
   margin: auto;
+  color: white;
 }
 
 .toprow h1 {
@@ -53,9 +56,18 @@ h1 {
   margin-top: auto;
 }
 
+.window:hover {
+  background: white;
+  opacity: 0.5;
+}
+
+.window:hover h1{
+  color: black;
+  font-size: 45px;
+}
 
 
-#no1 {
+/*#no1 {
   background: blue;
 }
 
@@ -96,15 +108,19 @@ h1 {
 
 #no11 {
   background: red;
-}
+}*/
 
 #no12 {
-  background: black;
-}
-#no13 {
-  background: blue;
+  border-left: 1px solid;
+  border-color: rgba(255, 255, 255, 0.9);
 }
 
+#no13 {
+  border-left: 1px solid;
+  border-color: rgba(255, 255, 255, 0.9);
+}
+
+/*
 #no14 {
   background: pink;
 }
@@ -146,4 +162,4 @@ h1 {
 
 #no24 {
   background: black;
-}
+}*/

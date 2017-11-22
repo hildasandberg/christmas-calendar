@@ -18,6 +18,10 @@ h1 {
   padding: 20px;
 }
 
+li {
+  text-align: left;
+}
+
 .containerdec {
   padding-top: 20px;
   padding-bottom: 20px;

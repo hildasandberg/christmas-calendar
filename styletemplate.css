@@ -22,7 +22,7 @@ li {
   text-align: left;
 }
 
-.containerdec {
+.container {
   padding-top: 20px;
   padding-bottom: 20px;
   width:50%;
@@ -31,20 +31,20 @@ li {
   margin: auto;
 }
 
-.receptdec {
+.recept {
   width: 90%;
   text-align: center;
   background: black;
   margin: auto;
 }
 
-.picturedec {
+.picture {
   padding: 100px;
   padding-bottom: 10px;
   border-bottom: 2px solid white;
 }
 
-.ingstegdec {
+.ingsteg {
   background-color: grey;
   border-bottom: 2px solid white;
   width: 90%;
@@ -52,7 +52,7 @@ li {
   margin: auto;
 }
 
-#picturedec {
+#picture {
   background: url(./images/banankaka.jpg);
   width: 100%;
   padding-top: 100%;

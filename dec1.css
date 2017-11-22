@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+}
+
+p {
+  text-align: center;
+  padding: 50px;
+  color: white;
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  padding: 20px;
+}
+
+.containerdec1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width:50%;
+  background: red;
+  text-align: center;
+  margin: auto;
+}
+
+.receptdec1 {
+  width: 90%;
+  text-align: center;
+  background: black;
+  margin: auto;
+}
+
+.picturedec1 {
+  padding: 100px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+
+.ingstegdec1 {
+  background-color: grey;
+  border-bottom: 2px solid white;
+  width: 90%;
+  text-align: center;
+  margin: auto;
+}
+
+#picturedec1 {
+  background: url(./images/banankaka.jpg);
+  width: 100%;
+  padding-top: 100%;
+  background-size: cover;
+}

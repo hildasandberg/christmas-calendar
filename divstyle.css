@@ -1,0 +1,103 @@
+@import "compass/css3";
+@import url('https://fonts.googleapis.com/css?family=Scope+One');
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(./images/background_1.jpg);
+  background-size: cover;
+}
+
+.calendar {
+  padding: 0;
+  margin: 0;
+}
+
+.openPage {
+  display: none;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.toprow, .bottomrow {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  overflow: hidden;
+  width: 100%;
+  height: 50vh;
+}
+
+.window {
+  transform: rotate(45deg);
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  width: 6%;
+  height: 85vh;
+  align-self: center;
+  border-right: 1px solid;
+  border-color: rgba(255, 255, 255, 0.9);
+}
+
+.window.toprow {
+  transform: rotate(135deg);
+}
+
+#no15 {
+  border-left: 1px solid;
+  border-color: rgba(255, 255, 255, 0.9);
+}
+
+#no8 {
+  border-left: 1px solid;
+  border-color: rgba(255, 255, 255, 0.9);
+}
+
+h1 {
+  font-family: 'Scope One' , serif;
+  font-size: 30px;
+  font-weight: normal;
+  transform: rotate(-45deg);
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+
+.toprow h1 {
+  transform: rotate(-135deg);
+  margin-top: auto;
+  margin: auto;
+}
+
+.window:hover {
+  background: white;
+  opacity: 0.5;
+}
+
+.window:hover h1{
+  color: black;
+  font-size: 45px;
+}
+
+/*WHEN A WINDOW GETS OPEN*/
+
+
+/*WHEN CLICKING ON OPEN WINDOW*/
+.expand.openPage {
+  /*overflow: hidden;*/
+  height: 80vh;
+  width: 100%;
+  background: red;
+  display: block;
+}
+
+.expand.toprow, .expand.bottomrow {
+  height: 10vh;
+}

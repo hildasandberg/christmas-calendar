@@ -1,0 +1,10 @@
+.container.dec7 {
+  background-color: red;
+}
+
+#picturedec7 {
+  background: url(./images/banankaka.jpg);
+  width: 100%;
+  padding-top: 100%;
+  background-size: cover;
+}

@@ -1,15 +1,23 @@
+body {
+  background-color: #804000;
+}
+
 .container.dec7 {
-  background-color: red;
+  background-color: #cc6600;
 
 }
 
 .picture.picture-dec7 {
-  background-color: blue;
-
+  background-color: #ff9900;
+  border: none;
 }
 
 .ingsteg.ingsteg-dec7 {
-  background-color: black;
+    background-color: #ff9900;
+    color: blue;
+    border: none;
+    margin-top: 10px;
+    padding-bottom: 30px;
 }
 
 #picturedec7 {
@@ -17,4 +25,38 @@
   width: 100%;
   padding-top: 100%;
   background-size: cover;
+}
+
+.ingsteg-dec7 ul , ol {
+margin: 0;
+}
+
+.ingsteg-dec7 li {
+  font-family: helvetica;
+  color: #804000;
+  list-style-type:none;
+  line-height: 1.8vw;
+  width: 90%;
+
+}
+
+.recept h1 {
+  font-family: Helvetica;
+  text-align: center;
+  font-size: 3vw;
+  font-weight: normal;
+  color: #804000;
+
+
+}
+
+.ingsteg-dec7 p {
+  text-align: center;
+  margin: auto;
+  font-family: Helvetica;
+  color: #804000;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }

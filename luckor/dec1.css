@@ -83,7 +83,7 @@ li {
 }
 
 #dec1 {
-  background: url(./images/saffrankolasnittar.jpg);
+  background: url(../images/saffrankolasnittar.jpg);
   width: 100%;
   padding-top: 100%;
   background-size: cover;
@@ -120,7 +120,7 @@ li {
 #snow{
 	background: none;
 	font-family: Androgyne;
-	background-image: url('./cookies1.png'), url('./cookies3.png'), url('./socker1.png');
+	background-image: url('../cookies1.png'), url('../cookies3.png'), url('../socker1.png');
   /*background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');*/
 	height: 1300px;
 	left: 0;

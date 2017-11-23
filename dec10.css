@@ -1,0 +1,80 @@
+body {
+  font-family: 'Dosis', sans-serif;
+}
+
+.dec10 h1{
+  font-size: 60px;
+  color: black;
+  font-family: 'Amatic SC', cursive;
+  color: #eb8769;
+  margin: 0;
+  text-align: center;
+}
+
+.dec10 p{
+  padding: 3px;
+  font-size: 25px;
+  color: black;
+  font-family: 'Amatic SC', cursive;
+}
+
+li {
+  padding: 3px;
+}
+.container.dec10 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 80%;
+  background: white;
+  align-items: stretch;
+  justify-content: space-around;
+  padding: 10px;
+  /*margin: 10px;*/
+}
+
+.recept.dec10 {
+  width: 40%;
+  height: 100%;
+}
+
+.picture.dec10 {
+  padding: 0px;
+  border-bottom: 0;
+  background: white;
+}
+
+.ingsteg.dec10 {
+  background-color: white;
+  background-image: url(./images/marmor.jpg);
+  height: 100%;
+  border: 2px solid black;
+  border-radius: 35px;
+  padding-right: 20px;
+}
+
+.ingsteg.ing.dec10 {
+  width: 47%;
+}
+
+.ingsteg.steg.dec10 {
+  width: 95%;
+  margin-top: 10px;
+}
+
+.header.dec10 {
+  width: 90%;
+  margin: auto;
+  height: 20%;
+  background: white;
+}
+
+#picturedec10 {
+  background: url(./images/pepparkakspaj.jpg);
+  width: 100%;
+  padding-top: 100%;
+  background-size: cover;
+  border: 2px solid black;
+  border-radius: 35px;
+  background-position: center;
+}

@@ -1,9 +1,19 @@
 .container.dec7 {
   background-color: red;
+
+}
+
+.picture.picture-dec7 {
+  background-color: blue;
+
+}
+
+.ingsteg.ingsteg-dec7 {
+  background-color: black;
 }
 
 #picturedec7 {
-  background: url(./images/banankaka.jpg);
+  background: url(./images/pepparkakskolor.jpg);
   width: 100%;
   padding-top: 100%;
   background-size: cover;

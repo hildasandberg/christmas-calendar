@@ -1,0 +1,50 @@
+#bg12 {
+    background-image:url(https://cdn.pixabay.com/photo/2016/12/08/14/44/christmas-1891864_960_720.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container.dec12 {
+  background-color: #475d85;
+  font-family: ‘Cutive Mono’, monospace;
+}
+
+#picdec12 {
+  background-image: url(./images/hallongrotta.jpg);
+  width: 100%;
+  padding-top: 100%;
+  background-size:cover;
+}
+
+.recept.recept12 {
+  background-color: 	#b0d5f5;
+}
+
+.picture h1 {
+  color: #000;
+}
+
+.ingsteg.ingsteg12-left,
+.ingsteg.ingsteg12-right {
+  background-color: hsl(0, 0%, 92%);
+}
+
+.ingsteg.ingsteg12-left ul,
+.ingsteg.ingsteg12-right ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ingsteg.ingsteg12-left ul li,
+.ingsteg.ingsteg12-right ol li {
+  padding: 0 20px 8px 20px;
+  color: #000;
+}
+
+.ingsteg.ingsteg12-left ul p,
+.ingsteg.ingsteg12-right ol p {
+  padding: 20px 20px 50px 20px;
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+}

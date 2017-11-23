@@ -121,6 +121,8 @@ li {
 	background: none;
 	font-family: Androgyne;
 	background-image: url('./cookies1.png'), url('./cookies3.png'), url('./socker1.png');
+  /*background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');*/
+	height: 1300px;
 	left: 0;
 	position: absolute;
 	top: 0;

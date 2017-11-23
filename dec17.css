@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> e20f357e19cacc8c8d66c6d6f683d3905662426c
 @font-face {
 	font-family: Cartoonish;
 	src: url(Cartoonish.ttf);
@@ -14,26 +9,12 @@
 }
 
 
-<<<<<<< HEAD
->>>>>>> e20f357e19cacc8c8d66c6d6f683d3905662426c
-=======
->>>>>>> e20f357e19cacc8c8d66c6d6f683d3905662426c
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-<<<<<<< HEAD
-<<<<<<< HEAD
-  overflow-x: hidden;
-  background: #ffd93a;
-}
-
-p {
-=======
-=======
->>>>>>> e20f357e19cacc8c8d66c6d6f683d3905662426c
 }
 
 
@@ -63,102 +44,12 @@ p {
 
 p {
   text-align: center;
-<<<<<<< HEAD
->>>>>>> e20f357e19cacc8c8d66c6d6f683d3905662426c
-=======
->>>>>>> e20f357e19cacc8c8d66c6d6f683d3905662426c
   padding: 50px;
   color: white;
   margin: 0;
 }
 
 h1 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  color: white;
-  padding: 20px;
-  box-shadow: 0px 5px 5px 5px #000000;
-
-}
-
-video {
-  width:100%;
-}
-
-
-li {
-  margin-left: 100px;
-  text-align: left;
-  color: white;
-}
-
-.videos {
-  position: relative;
-}
-
-.containerdec1 {
-  position: absolute;
-  padding-top: 100px;
-  padding-bottom: 20px;
-  width:40%;
-  background: #ffd93a;
-  text-align: center;
-  margin-left: 30%;
-}
-
-.containerbottomdec1 {
-  position: absolute;
-  margin-top:650px;
-  width:100%;
-  background: #ffd93a;
-  text-align: center;
-  display: flex;
-  flex-flow: row;
-  /*justify-content: flex-end;*/
-  justify-content: space-around;
-  border-bottom: 2px solid black;
-}
-
-
-.receptdec1 {
-  width: 80%;
-  background: #ffd93a;
-  margin: auto;
-}
-
-.picturedec1 {
-  padding: 30px;
-  padding-bottom: 20px;
-  /*border-bottom: 2px solid black;*/
-  text-align: center;
-}
-
-.ingstegdec1 {
-  background-color: #ffd93a;
-  width: 50%;
-  height: 400px;
-  margin: auto;
-  text-align: center;
-  border: 2px solid black;
-}
-
-#picturedec1 {
-  background: url(./images/banankaka.jpg);
-  width: 100%;
-  padding-top: 100%;
-  background-size: cover;
-  border: 2px solid black;
-  box-shadow: 0px 5px 5px 5px #000000;
-
-}
-
-.videoflex {
-  display: flex;
-  width: 100%;
-  height: 900px;
-=======
-=======
->>>>>>> e20f357e19cacc8c8d66c6d6f683d3905662426c
   color: black;
   padding: 20px;
 }
@@ -290,8 +181,4 @@ li {
   0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
   50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
   100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
-<<<<<<< HEAD
->>>>>>> e20f357e19cacc8c8d66c6d6f683d3905662426c
-=======
->>>>>>> e20f357e19cacc8c8d66c6d6f683d3905662426c
 }

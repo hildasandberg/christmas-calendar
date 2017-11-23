@@ -1,10 +1,11 @@
 body {
+  background: linear-gradient(to bottom right, red, yellow);
   background-color: #804000;
+
 }
 
 .container.dec7 {
   background-color: #cc6600;
-
 }
 
 .picture.picture-dec7 {
@@ -32,7 +33,7 @@ margin: 0;
 }
 
 .ingsteg-dec7 li {
-  font-family: helvetica;
+  font-family: 'Acme', sans-serif;
   color: #804000;
   list-style-type:none;
   line-height: 1.8vw;
@@ -41,9 +42,9 @@ margin: 0;
 }
 
 .recept h1 {
-  font-family: Helvetica;
+  font-family: 'Acme', sans-serif;
   text-align: center;
-  font-size: 3vw;
+  font-size: 4vw;
   font-weight: normal;
   color: #804000;
 
@@ -53,7 +54,7 @@ margin: 0;
 .ingsteg-dec7 p {
   text-align: center;
   margin: auto;
-  font-family: Helvetica;
+  font-family: 'Acme', sans-serif;
   color: #804000;
   margin: 0;
   padding: 0;

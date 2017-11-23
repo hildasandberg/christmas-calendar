@@ -1,36 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  color: #fff;
-}
 
-#december4-main {
-    width: 100%;
-    height: auto;
-    background-image: url(http://www.thinknice.com/wp-content/uploads/2012/12/Dancing-Santa-Reindeer-Funny-Christmas-GIF.gif);
-    background-size: repeat;
-}
-
-.containerdec4 {
-  width: 40%;
-  height: 40%;
-  margin: auto;
-  text-align: center;
-  background-color: #C21F1F;
-}
-
-.picturedec4 {
-  padding: 30px 30px 0 30px;
-  margin: 10px;
-}
-
-#picturedec4 {
-=======
-=======
->>>>>>> e20f357e19cacc8c8d66c6d6f683d3905662426c
 
 /*#bg {
     background-image: url(http://www.thinknice.com/wp-content/uploads/2012/12/Dancing-Santa-Reindeer-Funny-Christmas-GIF.gif);
@@ -48,42 +16,12 @@ body {
 }
 
 #picdec4 {
-<<<<<<< HEAD
->>>>>>> 14efb846f6244bef797baff06dab5fe11661eee1
-=======
->>>>>>> e20f357e19cacc8c8d66c6d6f683d3905662426c
   background-image: url(./images/chokladkokosrutor.jpg);
   width: 100%;
   padding-top: 100%;
   background-size:cover;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-h1 {
-  background: #3C8D0D;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.title,
-.ingredients-4,
-.instruktion-4 {
-  width: 100%;
-  margin: 10px 0;
-}
-
- p {
-  background-color: #8C0E0E;
-  margin: 0 40px;
-  padding: 20px;
-}
-
-.instruktion-4 {
-  margin-bottom: 30px;
-=======
-=======
->>>>>>> e20f357e19cacc8c8d66c6d6f683d3905662426c
 .ingsteg.ingsteg4-left {
 
 }
@@ -104,8 +42,5 @@ h1 {
 .ingsteg.ingsteg4-left ul p,
 .ingsteg.ingsteg4-right ol p {
   padding: 20px;
-<<<<<<< HEAD
->>>>>>> 14efb846f6244bef797baff06dab5fe11661eee1
-=======
->>>>>>> e20f357e19cacc8c8d66c6d6f683d3905662426c
+
 }

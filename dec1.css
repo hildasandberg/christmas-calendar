@@ -120,13 +120,7 @@ li {
 #snow{
 	background: none;
 	font-family: Androgyne;
-<<<<<<< HEAD
-	background-image: url('./multiple1.png'), url('./socker.png'), url('./multiple3.png');
-=======
 	background-image: url('./cookies1.png'), url('./cookies3.png'), url('./socker1.png');
->>>>>>> e20f357e19cacc8c8d66c6d6f683d3905662426c
-  /*background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');*/
-	height: 1300px;
 	left: 0;
 	position: absolute;
 	top: 0;

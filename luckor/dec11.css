@@ -2,6 +2,7 @@ body {
   background: url(../diana-feil-245956.jpg);
   background-size: cover;
   font-family: 'Berkshire Swash', cursive;
+  color: white;
 }
 #picturedec11 {
   background: url(../images/chokladkokosrutor.jpg);
@@ -12,6 +13,12 @@ body {
 
 .container.dec11 {
 
+}
+
+.ingsteg.ingsteg-dec11 {
+  background-color: #ffcc66;
+  border: none;
+  padding-bottom: 2px;
 }
 
 .name h1 {

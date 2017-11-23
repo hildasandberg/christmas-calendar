@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  background-image: url(./images/jad-limcaco-281097.jpg);
+  background-size: cover;
+  font-family: 'Quantico', sans-serif;
+  color: white;
+}
+
+p {
+  padding: 50px;
+  color: white;
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  font-size: 4vw;
+  margin: 0;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 1.4vw;
+  padding: 40px;
+  text-align: left;
+}
+
+h6 {
+  font-size: 2vw;
+  margin: 0;
+  padding: 0;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.containerdec3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width:50%;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.receptdec3 {
+  width: 90%;
+  text-align: center;
+  /*background: black;*/
+  margin: auto;
+  display: flex;
+}
+
+.picturedec3 {
+  padding: 0;
+  padding-bottom: 10px;
+  width: 70%;
+  margin: auto;
+}
+
+.ingstegdec3 {
+  background-color: #f3dda5;
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  box-shadow: 5px 5px 5px 5px #b83023;
+}
+
+#picturedec3 {
+  background: url(./images/saffranssockerkaka.jpg);
+  width: 100%;
+  padding-top: 100%;
+  background-size: cover;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px 5px #b83023;
+}
+
+ul {
+  text-align: left;
+  padding-bottom: 40px;
+  margin-right: 40px;
+  list-style: none;
+}

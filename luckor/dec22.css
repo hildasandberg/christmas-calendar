@@ -1,0 +1,6 @@
+#picture {
+  background: url(../images/karamellappelkaka.jpg);
+  width: 100%;
+  padding-top: 100%;
+  background-size: cover;
+}

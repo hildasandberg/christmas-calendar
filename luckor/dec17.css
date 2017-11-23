@@ -112,7 +112,7 @@ li {
 }
 
 #dec17 {
-  background: url(./images/banankaka.jpg);
+  background: url(../images/banankaka.jpg);
   width: 100%;
   padding-top: 100%;
   background-size: cover;
@@ -146,10 +146,10 @@ li {
   z-index: 1000;
 }*/
 
-#snow{
+#snow {
 	background: none;
 	font-family: Androgyne;
-	background-image: url('./banan1.png'), url('./banan2.png'), url('./banan3.png');
+	background-image: url('../images/banan1.png'), url('../images/banan2.png'), url('../images/banan3.png');
   /*background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');*/
 	height: 1306px;
 	left: 0;

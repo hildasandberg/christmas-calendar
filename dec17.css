@@ -1,0 +1,279 @@
+<<<<<<< HEAD
+=======
+@font-face {
+	font-family: Cartoonish;
+	src: url(Cartoonish.ttf);
+}
+
+@font-face {
+	font-family: UniversNextPro;
+	src: url(UniversNextPro-Thin.otf);
+}
+
+
+>>>>>>> e20f357e19cacc8c8d66c6d6f683d3905662426c
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+<<<<<<< HEAD
+  overflow-x: hidden;
+  background: #ffd93a;
+}
+
+p {
+=======
+}
+
+
+#color {
+  background: #C0DB91;
+}
+
+#colortext {
+  color: #F2E086;
+  font-family: Cartoonish;
+  font-size: 60px;
+  padding: 0;
+}
+
+#textstor {
+  color: black;
+  font-family: Cartoonish;
+  font-size: 30px;
+  padding: 30px;
+}
+
+#text {
+  color: black;
+  font-family: UniversNextPro;
+  margin-top: 0;
+}
+
+p {
+  text-align: center;
+>>>>>>> e20f357e19cacc8c8d66c6d6f683d3905662426c
+  padding: 50px;
+  color: white;
+  margin: 0;
+}
+
+h1 {
+<<<<<<< HEAD
+  color: white;
+  padding: 20px;
+  box-shadow: 0px 5px 5px 5px #000000;
+
+}
+
+video {
+  width:100%;
+}
+
+
+li {
+  margin-left: 100px;
+  text-align: left;
+  color: white;
+}
+
+.videos {
+  position: relative;
+}
+
+.containerdec1 {
+  position: absolute;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  width:40%;
+  background: #ffd93a;
+  text-align: center;
+  margin-left: 30%;
+}
+
+.containerbottomdec1 {
+  position: absolute;
+  margin-top:650px;
+  width:100%;
+  background: #ffd93a;
+  text-align: center;
+  display: flex;
+  flex-flow: row;
+  /*justify-content: flex-end;*/
+  justify-content: space-around;
+  border-bottom: 2px solid black;
+}
+
+
+.receptdec1 {
+  width: 80%;
+  background: #ffd93a;
+  margin: auto;
+}
+
+.picturedec1 {
+  padding: 30px;
+  padding-bottom: 20px;
+  /*border-bottom: 2px solid black;*/
+  text-align: center;
+}
+
+.ingstegdec1 {
+  background-color: #ffd93a;
+  width: 50%;
+  height: 400px;
+  margin: auto;
+  text-align: center;
+  border: 2px solid black;
+}
+
+#picturedec1 {
+  background: url(./images/banankaka.jpg);
+  width: 100%;
+  padding-top: 100%;
+  background-size: cover;
+  border: 2px solid black;
+  box-shadow: 0px 5px 5px 5px #000000;
+
+}
+
+.videoflex {
+  display: flex;
+  width: 100%;
+  height: 900px;
+=======
+  color: black;
+  padding: 20px;
+}
+
+li {
+  /*text-align: left;*/
+}
+
+.container.dec17 {
+  /*margin-top: 20px;*/
+  background: rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 1000;
+  width: 40%;
+  border: 10px solid black;
+  padding: 50px;
+  padding-bottom: 0;
+  padding-top: 0;
+
+  /*padding-top: 20px;
+  padding-bottom: 20px;
+  width:50%;
+  background: red;
+  text-align: center;
+  margin: auto;*/
+}
+
+.recept.dec17 {
+  width: 100%;
+  background: #F2E086;
+  /*background: #FFF673;*/
+  border: 5px solid black;
+
+  /*width: 90%;
+  text-align: center;
+  background: black;
+  margin: auto;*/
+}
+
+.picture.dec17{
+  padding: 30px;
+  /*padding-bottom: 0;*/
+  /*padding: 100px;
+  padding-bottom: 10px;*/
+  border-bottom: 0;
+}
+
+.ingsteg.dec17 {
+  background: #F2E086;
+  z-index: 1000;
+  border: 5px solid black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width:100%;
+  /*background-color: grey;
+  border-bottom: 2px solid white;
+
+  /*text-align: center;
+  margin: auto;*/
+}
+
+#dec17 {
+  background: url(./images/banankaka.jpg);
+  width: 100%;
+  padding-top: 100%;
+  background-size: cover;
+  border: 5px solid black;
+  text-align: center;
+}
+
+/*#dec1 {
+  background: url(./images/saffranskolasnittar.jpg);
+  width: 100%;
+  padding-top: 100%;
+  background-size: cover;
+}*/
+
+
+/*new for this page*/
+
+.bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  margin: 0;
+  margin-top: 20px;
+  /*border: 10px solid white;*/
+  /*background: rgba(255, 255, 255, 0.3);*/
+}
+
+/*img {
+  width: 100%;
+  position: absolute;
+  z-index: 1000;
+}*/
+
+#snow{
+	background: none;
+	font-family: Androgyne;
+	background-image: url('./banan1.png'), url('./banan2.png'), url('./banan3.png');
+  /*background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');*/
+	height: 1306px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index:-1;
+	-webkit-animation: snow 15s linear infinite;
+	-moz-animation: snow 15s linear infinite;
+	-ms-animation: snow 15s linear infinite;
+	animation: snow 15s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+>>>>>>> e20f357e19cacc8c8d66c6d6f683d3905662426c
+}

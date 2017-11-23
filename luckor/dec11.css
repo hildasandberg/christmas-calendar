@@ -1,10 +1,10 @@
 body {
-  background: url(./images/diana-feil-245956.jpg);
+  background: url(../diana-feil-245956.jpg);
   background-size: cover;
   font-family: 'Berkshire Swash', cursive;
 }
 #picturedec11 {
-  background: url(./images/chokladkokosrutor.jpg);
+  background: url(../images/chokladkokosrutor.jpg);
   width: 100%;
   padding-top: 100%;
   background-size: cover;

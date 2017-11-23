@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-image: url(./images/jad-limcaco-281097.jpg);
+  background-image: url(../images/jad-limcaco-281097.jpg);
   background-size: cover;
   font-family: 'Quantico', sans-serif;
   color: white;
@@ -67,7 +67,7 @@ h6 {
 }
 
 #picturedec3 {
-  background: url(./images/saffranssockerkaka.jpg);
+  background: url(../images/saffranssockerkaka.jpg);
   width: 100%;
   padding-top: 100%;
   background-size: cover;

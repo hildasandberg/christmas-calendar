@@ -92,16 +92,16 @@ h1 {
 /*WHEN CLICKING ON OPEN WINDOW*/
 .expand1 {
   /*overflow: hidden;*/
-  height: 80%;
+  height: 80vh;
   width: 100%;
   background: red;
   display: block;
 }
 
 .expand2 {
-  height: 10%;
+  height: 10vh;
 }
 
 .expand3 {
-  height: 10%;
+  height: 10vh;
 }

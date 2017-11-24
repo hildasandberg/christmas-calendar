@@ -1,3 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  text-align: center;
+  padding: 50px;
+  color: white;
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  padding: 20px;
+}
+
+li {
+  text-align: left;
+}
+
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width:50%;
+  background: red;
+  text-align: center;
+  margin: auto;
+}
+
+.recept {
+  width: 90%;
+  text-align: center;
+  background: black;
+  margin: auto;
+}
+
+.picture {
+  padding: 100px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+
+.ingsteg {
+  background-color: grey;
+  border-bottom: 2px solid white;
+  width: 90%;
+  text-align: center;
+  margin: auto;
+}
+
 #picture {
   background: url(../images/kanelbullemuffin.jpg);
   width: 100%;

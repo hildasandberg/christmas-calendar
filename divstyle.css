@@ -1,5 +1,5 @@
-@import "compass/css3";
-@import url('https://fonts.googleapis.com/css?family=Scope+One');
+/*@import "compass/css3";
+@import url('https://fonts.googleapis.com/css?family=Scope+One');*/
 
 body {
   padding: 0;
@@ -90,14 +90,18 @@ h1 {
 
 
 /*WHEN CLICKING ON OPEN WINDOW*/
-.expand.openPage {
+.expand1 {
   /*overflow: hidden;*/
-  height: 80vh;
+  height: 80%;
   width: 100%;
   background: red;
   display: block;
 }
 
-.expand.toprow, .expand.bottomrow {
-  height: 10vh;
+.expand2 {
+  height: 10%;
+}
+
+.expand3 {
+  height: 10%;
 }

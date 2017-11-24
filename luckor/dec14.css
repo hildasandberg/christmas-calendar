@@ -1,6 +1,62 @@
 #picture {
   background: url(../images/chockladbullar.jpg);
-  width: 100%;
-  padding-top: 100%;
-  background-size: cover;
+  /*width: 100%;*/
+  /*padding-top: 100%;*/
+  /*background-size: cover;*/
+}
+
+* {
+  /*box-sizing: border-box;*/
+}
+
+body {
+  /*margin: 0;*/
+  background-color: pink;
+}
+
+p {
+  /*text-align: center;*/
+  /*padding: 50px;*/
+  /*color: white;*/
+  /*margin: 0;*/
+}
+
+h1 {
+  /*color: white;*/
+  /*padding: 20px;*/
+}
+
+li {
+  /*text-align: left;*/
+}
+
+.container {
+  /*padding-top: 20px;*/
+  /*padding-bottom: 20px;*/
+  /*width:50%;*/
+  background: none;
+  /*text-align: center;*/
+  /*margin: auto;*/
+}
+
+.recept {
+  /*width: 90%;*/
+  /*text-align: center;*/
+  /*background: black;*/
+  /*margin: auto;*/
+}
+
+.picture {
+  /*padding: 100px;*/
+  /*padding-bottom: 10px;*/
+  border-bottom: none;
+}
+
+.ingsteg {
+  background-color: black;
+  color: white;
+  border-bottom: none;
+  /*width: 90%;*/
+  /*text-align: center;*/
+  /*margin: auto;*/
 }

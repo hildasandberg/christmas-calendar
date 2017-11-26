@@ -1,10 +1,10 @@
 #bg16 {
-    background-image:url(http://www.animatedimages.org/data/media/1076/animated-christmas-glitter-image-0237.gif);
+    background-image:url(https://i2.wp.com/www.gypsysoul.co.uk/wp-content/uploads/2017/11/send-christmas-ecards-zero-waste.jpg?fit=940%2C626);
     background-repeat: repeat;
     background-color: green;
 
     animation-name: animation;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-play-state: running;
@@ -18,7 +18,7 @@
 }
 
 .container.dec16 {
-  background-color: #475d85;
+  background-color: #F1E0B1;
   font-family: ‘Cutive Mono’, monospace;
 }
 
@@ -30,16 +30,16 @@
 }
 
 .recept.recept16 {
-  background-color: 	#b0d5f5;
+  background-color: 	#5A392B;
 }
 
 .picture h1 {
-  color: #000;
+  color: #F26C1A;
 }
 
 .ingsteg.ingsteg16-left,
 .ingsteg.ingsteg16-right {
-  background-color: hsl(0, 0%, 92%);
+  background-color: #7DBEA5;
 }
 
 .ingsteg.ingsteg16-left ul,
@@ -51,13 +51,13 @@
 .ingsteg.ingsteg16-left ul li,
 .ingsteg.ingsteg16-right ol li {
   padding: 0 20px 8px 20px;
-  color: #000;
+  color: #5A392B;
 }
 
 .ingsteg.ingsteg16-left ul p,
 .ingsteg.ingsteg16-right ol p {
   padding: 20px 20px 50px 20px;
   font-size: 20px;
-  color: #000;
+  color: #5A392B;
   font-weight: bold;
 }

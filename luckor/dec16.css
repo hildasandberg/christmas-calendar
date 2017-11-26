@@ -1,7 +1,20 @@
 #bg16 {
-    background-image:url(https://cdn.pixabay.com/photo/2016/12/08/14/44/christmas-1891864_960_720.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image:url(http://www.animatedimages.org/data/media/1076/animated-christmas-glitter-image-0237.gif);
+    background-repeat: repeat;
+    background-color: green;
+
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@keyframes animation {
+    20%  {background-color: red;}
+    40%  {background-color: yellow;}
+    60%  {background-color: blue;}
+    80%  {background-color: white;}
 }
 
 .container.dec16 {
@@ -10,7 +23,7 @@
 }
 
 #picdec16 {
-  background-image: url(../images/havreflarn.jpg);
+  background-image: url(../images/dumlekladdkaka.jpg);
   width: 100%;
   padding-top: 100%;
   background-size:cover;
@@ -35,14 +48,14 @@
   padding: 0;
 }
 
-.ingsteg.ingsteg12-left ul li,
-.ingsteg.ingsteg12-right ol li {
+.ingsteg.ingsteg16-left ul li,
+.ingsteg.ingsteg16-right ol li {
   padding: 0 20px 8px 20px;
   color: #000;
 }
 
-.ingsteg.ingsteg12-left ul p,
-.ingsteg.ingsteg12-right ol p {
+.ingsteg.ingsteg16-left ul p,
+.ingsteg.ingsteg16-right ol p {
   padding: 20px 20px 50px 20px;
   font-size: 20px;
   color: #000;

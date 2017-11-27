@@ -7,5 +7,4 @@ const openWindow = (lucka) => {
   // Opens the correct html file with the help of element ID
   document.getElementById("iframe").src=`./luckor/${lucka}.html`
   //sliding animation
-  
 }

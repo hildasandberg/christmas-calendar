@@ -1,0 +1,142 @@
+@font-face {
+	font-family: Honeyguide;
+	src: url(Honeyguide.otf);
+}
+
+@font-face {
+	font-family: UniversNextPro;
+	src: url(UniversNextPro-Thin.otf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F97E69;
+  margin: 0;
+}
+
+p {
+  font-family: UniversNextPro;
+  text-align: center;
+  color: #E2C6AF;
+  font-size: 30px;
+  margin: 0;
+}
+
+#paddingtop {
+  padding-top: 120px;
+}
+
+h1 {
+  font-family: Honeyguide;
+  color: #FF552E;
+  font-size: 40px;
+  border: 2px solid black;
+  background-color: black;
+}
+
+li {
+  font-family: UniversNextPro;
+  text-align: left;
+  margin-left: 400px;
+}
+
+.texcolor {
+  color: #E2C6AF;
+}
+
+
+.bodydec21 {
+  background: url(../images/rabarber.png) no-repeat;
+  position: absolute;
+  width: 35%;
+  height: 600px;
+  margin-top: 300px;
+  margin-left: 750px;
+  z-index: 1;
+}
+
+
+.container.dec21 {
+  background: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width:100%;
+  position: relative;
+  /*background: red;
+  text-align: center;
+  margin: auto;*/
+}
+
+.recept.dec21 {
+  border-radius: 50%;
+  background: #E2C6AF;
+  /*background: #E2C6AF;*/
+  /*background: rgba(0, 0, 0, 0.5);*/
+  border: 7px solid #FF552E;
+  width: 50%;
+  /*width: 90%;
+  text-align: center;
+  background: black;
+  margin: auto;*/
+}
+
+.picture.dec21 {
+  border-bottom: 0;
+  padding: 100px;
+  padding-bottom: 10px;
+}
+
+
+.box {
+  margin-top: 200px;
+  padding: 50px;
+  width: 100%;
+  height: 670px;
+  text-align: center;
+  background-color: #739327;
+  border-top: 5px solid #E2C6AF;
+  border-bottom: 5px solid #E2C6AF;
+
+}
+
+.texbox {
+  background-color: #739327;
+  background: url(../images/rabarber1.png);
+  background-size: cover;
+  margin-top: -150px;
+}
+
+.ingsteg.dec21 {
+  /*border-radius: 50vw;*/
+  width: 100%;
+  padding: 0;
+  height: 800px;
+  /*padding: 50px;*/
+  background-color: transparent;
+  border-bottom: 0;
+  /*background-color: grey;
+  border-bottom: 2px solid white;
+  width: 90%;
+  text-align: center;
+  margin: auto;*/
+}
+
+#picturedec21 {
+  border-radius: 50%;
+  background: url(../images/rabarberpaj.jpg);
+  background-position: top center;
+  width: 100%;
+  padding-top: 100%;
+  z-index: 1000;
+  /*background-size: cover;*/
+  border: 5px solid black;
+}
+
+#text {
+  color: #E2C6AF;
+  font-size: 20px;
+  margin: 0;
+}

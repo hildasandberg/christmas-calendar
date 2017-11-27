@@ -1,11 +1,11 @@
 #bg12 {
-    background-image:url(https://cdn.pixabay.com/photo/2016/12/08/14/44/christmas-1891864_960_720.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image:url(https://ak4.picdn.net/shutterstock/videos/21000214/thumb/11.jpg);
+    background-repeat: repeat;
+    background-color: black;
 }
 
 .container.dec12 {
-  background-color: #475d85;
+  background-color: #D9383A;
   font-family: ‘Cutive Mono’, monospace;
 }
 
@@ -17,16 +17,16 @@
 }
 
 .recept.recept12 {
-  background-color: 	#b0d5f5;
+  background-color: #09504F;
 }
 
 .picture h1 {
-  color: #000;
+  color: #fff;
 }
 
 .ingsteg.ingsteg12-left,
 .ingsteg.ingsteg12-right {
-  background-color: hsl(0, 0%, 92%);
+  background-color: #A7C7C5;
 }
 
 .ingsteg.ingsteg12-left ul,
@@ -38,13 +38,13 @@
 .ingsteg.ingsteg12-left ul li,
 .ingsteg.ingsteg12-right ol li {
   padding: 0 20px 8px 20px;
-  color: #000;
+  color: #172A40;
 }
 
 .ingsteg.ingsteg12-left ul p,
 .ingsteg.ingsteg12-right ol p {
   padding: 20px 20px 50px 20px;
   font-size: 20px;
-  color: #000;
+  color: #172A40;
   font-weight: bold;
 }

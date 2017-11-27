@@ -1,0 +1,52 @@
+#bg20 {
+    background-image:url(https://www.mybancroftnow.com/wp-content/uploads/2015/08/christmas-tree-and-lights.jpg);
+    background-repeat: repeat;
+     background-size:contain;
+}
+
+.container.dec20 {
+  background-color: #E3BD6A;
+  font-family: ‘Cutive Mono’, monospace;
+}
+
+#picdec20 {
+  background-image: url(../images/partytarta.jpg);
+  width: 100%;
+  padding-top: 100%;
+  background-size:cover;
+}
+
+.recept.recept20 {
+  background-color: 	#153B2C;
+}
+
+.picture h1 {
+  color: #D4D7C4;
+}
+
+.ingsteg.ingsteg20-left,
+.ingsteg.ingsteg20-right {
+  background-color: #D4D7C4;
+}
+
+.ingsteg.ingsteg20-left ul,
+.ingsteg.ingsteg20-right ol {
+  list-style-type: none;
+  padding: 0;
+  color: #A17046;
+}
+
+.ingsteg.ingsteg20-left ul li,
+.ingsteg.ingsteg20-right ol li {
+  padding: 0 20px 8px 20px;
+  color: #153B2C7;
+  text-align: justify;
+}
+
+.ingsteg.ingsteg20-left ul p,
+.ingsteg.ingsteg20-right ol p {
+  padding: 20px 20px 50px 20px;
+  font-size: 20px;
+  color: #1C5C42;
+  font-weight: bold;
+}

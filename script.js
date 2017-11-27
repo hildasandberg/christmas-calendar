@@ -14,6 +14,7 @@ const elements = [...document.getElementsByClassName("window")]; // Just to conv
 // gets the element and the event
 elements.forEach((element) => {
   element.onclick = (event) => {
+    sayHello();
     // Gets the element id
     // console.log('HELLO!', element.id);
     // Do stuff with the window here

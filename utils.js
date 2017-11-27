@@ -4,8 +4,8 @@ const openWindow = (lucka) => {
   document.getElementById("toprow").classList.toggle("expand3")
   document.getElementById("openPage").classList.toggle("expand1")
   document.getElementById("bottomrow").classList.toggle("expand2")
-  //get correct html file by using date
-  console.log("Hej " + lucka)
+  // Opens the correct html file with the help of element ID
+  document.getElementById("iframe").src=`./luckor/${lucka}.html`
   //sliding animation
-
+  
 }

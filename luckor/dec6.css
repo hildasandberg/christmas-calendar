@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 body {
   background-color: white;
-  background-image: url(https://h24-original.s3.amazonaws.com/44/17003811-bkNvw.jpg?name=God_jul%2C_Ludvig_Granberg%2C_Hemsida24.jpg);
+  background-image: url(../images/bg-kula.jpg);
 }
 
 p {
@@ -25,9 +25,6 @@ li, ul {
   text-align: left;
 }
 
-/*ol {
-  padding: 0;
-}*/
 .container {
   padding-top: 20px;
   padding-bottom: 20px;

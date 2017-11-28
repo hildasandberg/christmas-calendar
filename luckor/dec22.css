@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 body {
   background-color: white;
-  background-image: url(https://avante.biz/wp-content/uploads/Desktop-Backgrounds-Christmas/Desktop-Backgrounds-Christmas-001.jpg);
+  background-image: url(../images/bg-kulor.jpg);
   background-size: cover;
   font-family: sans-serif;
   font-size: 14px;
@@ -17,7 +17,7 @@ p {
 
 h1 {
   font-family: 'Abril Fatface', cursive;
-  font-weight: normal;
+  font-weight: lighter;
   text-align: left;
   font-size: 45px;
   color: white;
@@ -30,9 +30,6 @@ li, ul {
   padding-bottom: 3px;
 }
 
-/*ol {
-  padding: 0;
-}*/
 .container {
   padding-top: 20px;
   padding-bottom: 20px;

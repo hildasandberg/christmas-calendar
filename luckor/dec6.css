@@ -1,60 +1,62 @@
-/** {
-  box-sizing: border-box;
-}
-
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 body {
-  margin: 0;
+  background-color: white;
+  background-image: url(https://h24-original.s3.amazonaws.com/44/17003811-bkNvw.jpg?name=God_jul%2C_Ludvig_Granberg%2C_Hemsida24.jpg);
 }
 
 p {
-  text-align: center;
-  padding: 50px;
-  color: white;
-  margin: 0;
+  text-align: left;
+  padding: 20px;
+  color: #cc0000;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
 }
 
 h1 {
-  color: white;
-  padding: 20px;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: normal;
+  text-align: center;
+  font-size: 45px;
+  color: #cc0000;
 }
 
-li {
+
+li, ul {
   text-align: left;
 }
 
+/*ol {
+  padding: 0;
+}*/
 .container {
   padding-top: 20px;
   padding-bottom: 20px;
-  width:50%;
-  background: red;
-  text-align: center;
+  width:90%;
+  background: white;
   margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 40px;
 }
 
 .recept {
-  width: 90%;
-  text-align: center;
-  background: black;
-  margin: auto;
-}
-
-.picture {
-  padding: 100px;
-  padding-bottom: 10px;
-  border-bottom: 2px solid white;
+  width: 30%;
+  text-align: left;
+  background: none;
 }
 
 .ingsteg {
-  background-color: grey;
+  background-color: white;
   border-bottom: 2px solid white;
-  width: 90%;
+  width: 30%;
   text-align: center;
   margin: auto;
-}*/
+  padding: 10px;
+}
 
 #picture {
   background: url(../images/kardemummakolor.jpg);
   width: 100%;
-  padding-top: 100%;
   background-size: cover;
 }

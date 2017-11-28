@@ -1,6 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+body {
+  background-color: white;
+  background-image: url(https://avante.biz/wp-content/uploads/Desktop-Backgrounds-Christmas/Desktop-Backgrounds-Christmas-001.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+p {
+  text-align: left;
+  padding: 20px;
+  color: #cc0000;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-weight: normal;
+  text-align: left;
+  font-size: 45px;
+  color: white;
+  margin-left: 10%;
+}
+
+
+li, ul {
+  text-align: left;
+  padding-bottom: 3px;
+}
+
+/*ol {
+  padding: 0;
+}*/
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width:90%;
+  background: none;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.recept {
+  width: 30%;
+  text-align: left;
+  background: none;
+}
+
+.ingsteg {
+  background-color: white;
+  border-bottom: 2px solid white;
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  border: 2px solid black;
+}
+
 #picture {
   background: url(../images/karamellappelkaka.jpg);
   width: 100%;
-  padding-top: 100%;
   background-size: cover;
+  border: 2px solid black;
 }

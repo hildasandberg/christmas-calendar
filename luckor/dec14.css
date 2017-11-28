@@ -1,62 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Sriracha');
+
 #picture {
   background: url(../images/chockladbullar.jpg);
-  /*width: 100%;*/
-  /*padding-top: 100%;*/
-  /*background-size: cover;*/
 }
 
 * {
-  /*box-sizing: border-box;*/
 }
 
 body {
-  /*margin: 0;*/
   background-color: pink;
+  background-image: url(../images/sprinkles-background.jpg);
+  background-size: 20%;
 }
 
 p {
-  /*text-align: center;*/
-  /*padding: 50px;*/
-  /*color: white;*/
-  /*margin: 0;*/
+  color: black;
+  font-family: 'Sriracha', cursive;
 }
 
 h1 {
-  /*color: white;*/
-  /*padding: 20px;*/
+  font-family: 'Sriracha', cursive;
 }
 
 li {
-  /*text-align: left;*/
+  font-family: 'Sriracha', cursive;
+  color:black;
 }
 
+ul {
+  margin-bottom: 30px;
+}
 .container {
-  /*padding-top: 20px;*/
-  /*padding-bottom: 20px;*/
-  /*width:50%;*/
   background: none;
-  /*text-align: center;*/
-  /*margin: auto;*/
 }
 
 .recept {
-  /*width: 90%;*/
-  /*text-align: center;*/
-  /*background: black;*/
-  /*margin: auto;*/
+  background: pink;
 }
 
 .picture {
-  /*padding: 100px;*/
-  /*padding-bottom: 10px;*/
   border-bottom: none;
 }
 
 .ingsteg {
-  background-color: black;
+  background-color: lightgreen;
   color: white;
   border-bottom: none;
-  /*width: 90%;*/
-  /*text-align: center;*/
-  /*margin: auto;*/
+  padding: 15px;
 }

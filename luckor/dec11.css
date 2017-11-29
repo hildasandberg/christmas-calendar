@@ -1,14 +1,15 @@
 body {
   background: url(../images/diana-feil-245956.jpg);
   background-size: cover;
-  font-family: 'Berkshire Swash', cursive;
-  color: white;
+  font-family: 'Roboto', cursive;
+  color: #0099ff;
 }
 #picturedec11 {
   background: url(../images/chokladkokosrutor.jpg);
   width: 100%;
   padding-top: 100%;
   background-size: cover;
+  margin-top: 25px;
 }
 
 .container.dec11 {
@@ -16,17 +17,30 @@ body {
 }
 
 .ingsteg.ingsteg-dec11 {
-  background-color: #ffcc66;
   border: none;
   padding-bottom: 2px;
+  background-color: transparent;
+  color: #0099ff;
 }
 
 .name h1 {
-  font-size: 6.5vw;
+  font-size: 8vw;
   text-align: center;
   text-shadow: 3px 3px #0099ff;
+  margin: 0;
+  margin-top: 60px;
+  color: white;
 }
 
 .container.dec11 {
-  background-color: #ffcc66;
+  background-color: white;
+  box-shadow: 5px 5px #0099ff;
+}
+
+p {
+  color: #0099ff;
+  text-align: left;
+  margin-bottom: 10px;
+  padding: 0;
+  margin-top: 30px;
 }

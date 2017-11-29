@@ -12,8 +12,11 @@ body {
   margin: 0;
 }
 
+#close-window {
+  display: none;
+}
+
 .openPage {
-  /*display: none;*/
   height: 0;
   transition:         height 500ms ease;
   -moz-transition:    height 500ms ease;
@@ -113,6 +116,10 @@ h1 {
 
 .expand3 {
     height: 10vh;
+}
+
+#close-window.expand4 {
+  display: inline;
 }
 
 .close-window {

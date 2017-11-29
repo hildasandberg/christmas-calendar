@@ -3,6 +3,7 @@ const toggleDivs = () => {
   document.getElementById("toprow").classList.toggle("expand3")
   document.getElementById("openPage").classList.toggle("expand1")
   document.getElementById("bottomrow").classList.toggle("expand2")
+  document.getElementById("close-window").classList.toggle("expand4")
 }
 
 //Open webpage renderer by toggling classes.

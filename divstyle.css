@@ -13,9 +13,13 @@ body {
 }
 
 .openPage {
-  display: none;
-  -webkit-transition: all 4s; /* Safari 3.1 to 6.0 */
-  transition: all 4s;
+  /*display: none;*/
+  height: 0;
+  transition:         height 500ms ease;
+  -moz-transition:    height 500ms ease;
+  -ms-transition:     height 500ms ease;
+  -o-transition:      height 500ms ease;
+  -webkit-transition: height 500ms ease;
 }
 
 iframe {
@@ -33,6 +37,11 @@ iframe {
   overflow: hidden;
   width: 100%;
   height: 50vh;
+  transition:         height 500ms ease;
+  -moz-transition:    height 500ms ease;
+  -ms-transition:     height 500ms ease;
+  -o-transition:      height 500ms ease;
+  -webkit-transition: height 500ms ease;
 }
 
 .window {
@@ -103,7 +112,7 @@ h1 {
 }
 
 .expand3 {
-  height: 10vh;
+    height: 10vh;
 }
 
 .close-window {

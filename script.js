@@ -22,6 +22,7 @@ luckorOpen.forEach((luckorOpen) => {
   }
 });
 
+// Toggle elements --> removes the expand class and closes the iframe window
 document.getElementById("close-window").onclick = () => {
   toggleDivs()
 }

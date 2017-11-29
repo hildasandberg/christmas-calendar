@@ -8,6 +8,7 @@ alert(dd)
 
 if(mm==12 && dd<25) {
   alert("Click me! " + dd)
+
  openWindow == dd
 } else {
   alert ("No calendar date")

@@ -46,7 +46,9 @@
 .ingsteg.ingsteg20-left ul p,
 .ingsteg.ingsteg20-right ol p {
   padding: 20px 20px 50px 20px;
-  font-size: 20px;
   color: #1C5C42;
   font-weight: bold;
+  font-family: 'Devonshire', cursive;
+  letter-spacing: 3px;
+  font-size: 20px;
 }

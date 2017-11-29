@@ -13,6 +13,10 @@ if(mm==12 && dd<25) {
   alert ("No calendar date")
 }
 
+
+
+
+
 // om du skall testa lucka nr 1 dd = 1 mm= 12
 // testa 24  dd = 24 mm == 12
 //om månad är 12 och dagen är mindre than 25 (mm == 12 && dd < 25)

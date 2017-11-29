@@ -1,7 +1,6 @@
 #bg24 {
     background-image:url(http://www.happydeepavali2015.com/wp-content/uploads/2016/12/happy-holidays-christmas-gifs.gif);
-    background-repeat: repeat;
-
+    background-repeat: no-repeat;
     background-color: black;
 }
 
@@ -47,7 +46,9 @@
 .ingsteg.ingsteg24-left ul p,
 .ingsteg.ingsteg24-right ol p {
   padding: 20px 20px 50px 20px;
-  font-size: 20px;
+  font-size: 30px;
   color: #1C5C42;
   font-weight: bold;
+  font-family: 'Devonshire', cursive;
+  letter-spacing: 3px;
 }

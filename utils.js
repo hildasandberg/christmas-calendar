@@ -9,4 +9,4 @@ const openWindow = (lucka) => {
   //sliding animation
 }
 
-//Close window --- FUNKAR EJ
+//Close window

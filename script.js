@@ -24,8 +24,6 @@ elements.forEach((element) => {
 });
 
 
-
-
 // Close window on click --- FUNKAR EJ
 var myWindow;
 

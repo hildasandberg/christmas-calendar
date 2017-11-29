@@ -97,6 +97,7 @@ h1 {
   width: 100%;
   background: red;
   display: block;
+  position: relative;
 }
 
 .expand2 {
@@ -105,4 +106,9 @@ h1 {
 
 .expand3 {
   height: 10vh;
+}
+
+.close-window {
+  position: absolute;
+  color: white;
 }

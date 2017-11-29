@@ -1,6 +1,52 @@
+body {
+  background-image: url(../images/anchor-lee-181406.jpg);
+  background-size: cover;
+  color: white;
+  font-family: 'Carter One', serif;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 #picturedec23 {
   background: url(../images/semla.jpg);
   width: 100%;
   padding-top: 100%;
   background-size: cover;
+}
+
+.container {
+  background-image: url(../images/anchor-lee-181406.jpg);
+  background-size: cover;
+}
+
+.ingsteg {
+  background-image: url(../images/anchor-lee-181406.jpg);
+  border: none;
+}
+
+.picture {
+  background-image: url(../images/anchor-lee-181406.jpg);
+  border: none;
+}
+
+.recept {
+  margin-top: 10px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
+ul, ol {
+  padding-bottom: 30px;
+  padding-right: 30px;
 }

@@ -110,10 +110,24 @@ h1 {
 
 .close-window {
   position: absolute;
-  right: 32px;
-  top: 32px;
-  width: 32px;
-  height: 32px;
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 50%;
+  right: 40px;
+  top: 40px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  background-color: transparent;
+  border: none;
+  color:darkgreen;
+  -webkit-text-stroke: 1px white;
+}
+
+.fa .fa-times-circle {
+  margin: 0;
+  padding: 0;
+
 }

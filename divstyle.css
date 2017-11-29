@@ -110,5 +110,10 @@ h1 {
 
 .close-window {
   position: absolute;
-  color: white;
+  right: 32px;
+  top: 32px;
+  width: 32px;
+  height: 32px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
 }

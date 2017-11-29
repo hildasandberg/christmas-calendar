@@ -1,11 +1,11 @@
 #bg20 {
-    background-image:url(https://www.mybancroftnow.com/wp-content/uploads/2015/08/christmas-tree-and-lights.jpg);
+    background-image:url(http://www.desertempireins.com/wp-content/uploads/2014/11/Fotolia_72275582_Subscription_Monthly_M-1.jpg);
     background-repeat: repeat;
-     background-size:contain;
+     background-size: contain;
 }
 
 .container.dec20 {
-  background-color: #E3BD6A;
+  background-color: #6F8C30;
   font-family: ‘Cutive Mono’, monospace;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .picture h1 {
-  color: #D4D7C4;
+  color: #4D5259;
 }
 
 .ingsteg.ingsteg20-left,
@@ -39,7 +39,7 @@
 .ingsteg.ingsteg20-left ul li,
 .ingsteg.ingsteg20-right ol li {
   padding: 0 20px 8px 20px;
-  color: #153B2C7;
+  color: #4D5259;
   text-align: justify;
 }
 
@@ -50,5 +50,56 @@
   font-weight: bold;
   font-family: 'Devonshire', cursive;
   letter-spacing: 3px;
-  font-size: 20px;
+  font-size: 30px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
+
+body {
+  background-color: turquoise;
+}
+
+.animation {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 4em;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100px;
+  margin: auto;
+  display: block;
+
+  -webkit-animation: bounce .3s ease infinite alternate;
+
+  color: #FFF;
+  text-align: center;
+  line-height: 100px;
+  text-shadow: 0 1px 0 #CCC,
+               0 2px 0 #CCC,
+               0 3px 0 #CCC,
+               0 4px 0 #CCC,
+               0 5px 0 #CCC,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .6);
+}
+
+@-webkit-keyframes bounce {
+  100% {
+    top: -30px;
+    text-shadow: 0 1px 0 #CCC,
+                 0 2px 0 #CCC,
+                 0 3px 0 #CCC,
+                 0 4px 0 #CCC,
+                 0 5px 0 #CCC,
+                 0 6px 0 #CCC,
+                 0 7px 0 #CCC,
+                 0 8px 0 #CCC,
+                 0 9px 0 #CCC,
+                 0 30px 30px rgba(0, 0, 0, .3);
+  }
 }

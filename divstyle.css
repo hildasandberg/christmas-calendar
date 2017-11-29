@@ -130,7 +130,7 @@ h1 {
   background-color: transparent;
   border: none;
   color:darkgreen;
-  -webkit-text-stroke: 1px white;
+  -webkit-text-stroke: 1px lightgrey;
   outline: none;
 }
 

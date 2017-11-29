@@ -7,7 +7,6 @@ luckor.forEach((lucka) => {
   if (isOpenable) {
     document.getElementById(lucka.id).classList.toggle("open")
   } else {
-    alert("Du får inte öppna den här luckan än!!!")
   }
 });
 

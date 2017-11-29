@@ -23,7 +23,5 @@ elements.forEach((element) => {
 });
 
 document.getElementById("close-window").onclick = () => {
-  document.getElementById("toprow").classList.toggle("expand3")
-  document.getElementById("openPage").classList.toggle("expand1")
-  document.getElementById("bottomrow").classList.toggle("expand2")
+  toggleDivs()
 }

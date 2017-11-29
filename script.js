@@ -12,13 +12,13 @@ luckor.forEach((lucka) => {
 });
 
 // Get all the open elements and add an onClick-event
-const elements = [...document.getElementsByClassName("open")];
+const luckorOpen = [...document.getElementsByClassName("open")];
 //Open window on click
 // gets the element and the event
-elements.forEach((element) => {
-  element.onclick = (event) => {
+luckorOpen.forEach((luckorOpen) => {
+  luckorOpen.onclick = (event) => {
     // Opens the correct webpage with the help of element ID
-    openWindow(element.id)
+    openWindow(luckorOpen.id)
   }
 });
 

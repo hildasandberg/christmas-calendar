@@ -1,6 +1,39 @@
+body {
+  background-color: #ffe523;
+  color: white;
+  font: serif;
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+ul, ol{
+  line-height: 20px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+}
+
 #picturedec15 {
   background: url(../images/bananmuffin.jpg);
   width: 100%;
   padding-top: 100%;
   background-size: cover;
+
+}
+
+.container.dec15 {
+  background-color: #ffaa22;
+}
+
+.picture.dec15 {
+  background-color: #ff6021;
+  margin-top: 10px;
+  border: none;
+}
+
+.ingsteg {
+    background-color: #ff6021;
+    border: none;
 }

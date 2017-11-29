@@ -8,3 +8,5 @@ const openWindow = (lucka) => {
   document.getElementById("iframe").src=`./luckor/${lucka}.html`
   //sliding animation
 }
+
+//Close window --- FUNKAR EJ

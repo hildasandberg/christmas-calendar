@@ -13,6 +13,7 @@ luckor.forEach((lucka) => {
 // Get all the open elements and add an onClick-event
 const elements = [...document.getElementsByClassName("open")];
 
+
 //Open window on click
 // gets the element and the event
 elements.forEach((element) => {
@@ -21,3 +22,13 @@ elements.forEach((element) => {
     openWindow(element.id)
   }
 });
+
+
+
+
+// Close window on click --- FUNKAR EJ
+var myWindow;
+
+function closeWin() {
+    myWindow.close();
+}

@@ -7,6 +7,7 @@ luckor.forEach((lucka) => {
   if (isOpenable) {
     document.getElementById(lucka.id).classList.toggle("open")
   } else {
+
   }
 });
 
@@ -22,8 +23,3 @@ elements.forEach((element) => {
     openWindow(element.id)
   }
 });
-
-
-
-
-// Close window on click

@@ -8,8 +8,19 @@ const toggleDivs = () => {
 
 //Open webpage renderer by toggling classes.
 const openWindow = (lucka) => {
-  toggleDivs()
+  const classNames = Array.from(document.getElementById("openPage").classList)
+  if (classNames.includes("expand1")) {
+    toggleDivs()
+    setTimeout(() => {
+      document.getElementById("iframe").src=`./luckor/${lucka}.html`
+      toggleDivs()
+    }, 900)
+  } else {
+    document.getElementById("iframe").src=`./luckor/${lucka}.html`
+    toggleDivs()
+  }
+
   // Opens the correct html file with the help of element ID
-  document.getElementById("iframe").src=`./luckor/${lucka}.html`
+
   //sliding animation
 }

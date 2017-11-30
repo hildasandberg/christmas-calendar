@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Scope+One');
 
+
 body {
   padding: 0;
   margin: 0;
@@ -98,7 +99,6 @@ h1 {
   color: black;
   font-size: 45px;
 }
-
 
 /*WHEN CLICKING ON OPEN WINDOW*/
 .expand1 {

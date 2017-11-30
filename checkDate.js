@@ -6,7 +6,7 @@ const checkDate = (lucka) => {
   // alert(`Luckans datum ${luckaDate}`)
   // alert(`Dagens datum ${today}`)
 
-  if(luckaDate <= today) {
+  if (luckaDate <= today) {
     // alert("Luckan går att öppna")
     return true
   } else {

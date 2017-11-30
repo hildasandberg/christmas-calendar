@@ -85,7 +85,8 @@ h1 {
 }
 
 .window.today:hover {
-  background-color: rgba(255, 0, 0, 0);
+  background: black;
+  opacity: 0.5;
 }
 
 .window.today:hover h1 {

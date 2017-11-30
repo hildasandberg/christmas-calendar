@@ -1,6 +1,6 @@
 //use new Date() to enerate a new Date object containing the the current date and time
 const checkDate = (lucka) => {
-  const today = new Date("2017-12-07") //Remove date to get todays date
+  const today = new Date("2017-12-2") //Remove date to get todays date
   const luckaDate = new Date(`${lucka} 2017`)
 
   // alert(`Luckans datum ${luckaDate}`)

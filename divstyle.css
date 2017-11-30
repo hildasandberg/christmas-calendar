@@ -84,6 +84,14 @@ h1 {
   color: white;
 }
 
+.window.today:hover {
+  background-color: rgba(255, 0, 0, 0);
+}
+
+.window.today:hover h1 {
+  color: yellow;
+}
+
 .toprow h1 {
   transform: rotate(-135deg);
   margin-top: auto;

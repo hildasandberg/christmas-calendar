@@ -26,3 +26,10 @@ luckorOpen.forEach((luckorOpen) => {
 document.getElementById("close-window").onclick = () => {
   toggleDivs()
 }
+
+const todaysDate = new Date("2017-12-07")
+const dd = todaysDate.getDate()
+
+// document.getElementById(`dec${dd}`).onmouseover = () => {
+    document.getElementById(`dec${dd}`).classList.toggle("today")
+// }

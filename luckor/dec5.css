@@ -1,57 +1,122 @@
+@font-face {
+	font-family: Honeyguide;
+	src: url(Honeyguide.otf);
+}
+
+@font-face {
+	font-family: UniversNextPro;
+	src: url(UniversNextPro-Thin.otf);
+}
+
+
 body {
-  background: white;
+  background: #985d39;
   margin: 0;
 }
 
 p {
-  text-align: center;
-  padding: 50px;
-  color: white;
+  font-family: Honeyguide;
+  text-align: left;
+  padding: 10px;
+  color: beige;
   margin: 0;
+  font-size: 20px;
 }
 
 h1 {
-  color: white;
+  font-family: Honeyguide;
+  color: #c74848;
   padding: 20px;
+  font-size: 40px;
 }
 
 li {
+  font-family: UniversNextPro;
+  color: beige;
   text-align: left;
 }
 
-.container {
+.container.dec5 {
+  display: flex;
   padding-top: 20px;
   padding-bottom: 20px;
-  width:50%;
-  background: red;
-  text-align: center;
-  margin: auto;
+  width:100%;
+  background: 0;
+  margin-left: 100px;
 }
 
-.recept {
-  width: 90%;
+.recept.dec5{
+  width: 40%;
+  border-radius: 30%;
   text-align: center;
-  background: black;
-  margin: auto;
+  background: beige;
+  border: 5px dotted #c74848;
 }
 
-.picture {
+.picture.dec5{
   padding: 100px;
   padding-bottom: 10px;
-  border-bottom: 2px solid white;
+  border-bottom: 0;
 }
 
-.ingsteg {
-  background-color: grey;
-  border-bottom: 2px solid white;
-  width: 90%;
+.flexbox {
+  width: 50%;
+  display: flex;
+  flex-flow: column;
+}
+
+.ingsteg.dec5 {
+  border-radius: 10%;
+  background-color: #c74848;
+  border: 2px solid beige;
+  width: 50%;
+  padding: 30px;
   text-align: center;
-  margin: auto;
+  margin: 20px;
 }
 
-#picture {
-  background: url(./images/paj-jpg.jpeg);
+#picturedec5 {
+  background: url(../images/paj.jpg);
+  border-radius: 50%;
   width: 100%;
   padding-top: 100%;
   background-size: cover;
+  border: 4px solid #c74848;
+}
+
+#snow {
+	background: none;
+	font-family: Androgyne;
+	background-image: url('../images/socker1.png'), url('../images/socker1.png'), url('../images/socker.png');
+  /*background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');*/
+	height: 1306px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index:-1;
+	-webkit-animation: snow 15s linear infinite;
+	-moz-animation: snow 15s linear infinite;
+	-ms-animation: snow 15s linear infinite;
+	animation: snow 15s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
 }

@@ -1,25 +1,14 @@
-// window.onbeforeunload = confirmExit;
-//   function confirmExit()
-//   {
-//     const nowPage = window.location.href
-//
-//     alert(nowPage)
-//
-//     return "You have attempted to leave this page.  If you have made any changes to the fields without clicking the Save button, your changes will be lost.  Are you sure you want to exit this page?";
-//   }
 
+// Takes out the url
+const nowPage = window.location.href
 
+// finds decXX.html in the url:en and gives an array with XX in position 1.
+const pageDate = nowPage.match(/dec(\d+).html/)
 
-// const nowPage = window.location.href
-//
-// alert(nowPage)
-//
-//
-// // var str = "Hello world, welcome to the universe.";
-// // var n = str.endsWith("universe.");
-//
-// const res = nowPage.split("dec");
-//
-// alert(res)
-//
-// const res2 = nowPage.substr(1, 4);
+const findDate = `dec${pageDate[1]}`
+
+// Check if date is allowed to be opened
+if (checkDate(findDate)) {
+} else {
+    window.location.href = "../cheatPage.html"
+}

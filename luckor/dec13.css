@@ -10,13 +10,12 @@
 
 
 body {
-  background: #c74848;
+  background-color: #c74848;
   margin: 0;
 }
 
 p {
   font-family: Honeyguide;
-  text-align: left;
   padding: 10px;
   color: beige;
   margin: 0;
@@ -25,7 +24,7 @@ p {
 
 h1 {
   font-family: Honeyguide;
-  background: white;
+  background: black;
   color: #c74848;
   padding: 20px;
   font-size: 40px;
@@ -37,51 +36,83 @@ li {
   text-align: left;
 }
 
-.container.dec9 {
+.container.dec13 {
+  margin-top: 50px;
   display: flex;
+  justify-content: space-around;
   padding-top: 20px;
   padding-bottom: 20px;
   width:100%;
   background: 0;
-  margin-left: 100px;
 }
 
-.recept.dec9{
+.recept.dec13{
   width: 40%;
-  border-radius: 50%;
+  border-radius: 30%;
   text-align: center;
   background: #ffaa00;
   border: 5px solid white;
+  margin: 0;
 }
 
-.picture.dec9{
-  border-radius: 50%;
-  padding: 80px;
-  padding-bottom: 10px;
-  border-bottom: 0;
+.picture.dec13{
+  border-radius: 30%;
+  padding: 0px 80px 50px 80px;
 }
 
-.flexbox {
-  width: 50%;
-  display: flex;
-  flex-flow: column;
-}
-
-.ingsteg.dec9 {
-  border-radius: 50%;
+.ingsteg.dec13 {
   background-color: #ffaa00;
   border: 5px solid white;
-  width: 40%;
-  padding: 50px;
+  height: 350px;
+  width: 20%;
+  padding: 10px;
   text-align: center;
   margin: 10px;
+  margin-top: 140px;
 }
 
 #picturedec13 {
   background: url(../images/kanelbullerulltarta.jpg);
-  border-radius: 50%;
+  border-radius: 30%;
   width: 100%;
   padding-top: 100%;
   background-size: cover;
   border: 5px solid white;
+}
+
+#snow {
+	background: none;
+	font-family: Androgyne;
+	background-image: url('../images/socker1.png'), url('../images/socker1.png'), url('../images/socker.png');
+  /*background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');*/
+	height: 800px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index:-1;
+	-webkit-animation: snow 15s linear infinite;
+	-moz-animation: snow 15s linear infinite;
+	-ms-animation: snow 15s linear infinite;
+	animation: snow 15s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
 }

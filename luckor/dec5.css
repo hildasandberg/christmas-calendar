@@ -1,6 +1,6 @@
 @font-face {
-	font-family: Cartoonish;
-	src: url(Cartoonish.ttf);
+	font-family: Honeyguide;
+	src: url(Honeyguide.otf);
 }
 
 @font-face {
@@ -15,7 +15,7 @@ body {
 }
 
 p {
-  font-family: Cartoonish;
+  font-family: Honeyguide;
   text-align: left;
   padding: 10px;
   color: beige;
@@ -24,7 +24,7 @@ p {
 }
 
 h1 {
-  font-family: Cartoonish;
+  font-family: Honeyguide;
   color: #c74848;
   padding: 20px;
   font-size: 40px;

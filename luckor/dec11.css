@@ -13,12 +13,12 @@ body {
 }
 
 .container.dec11 {
-
+  padding-bottom: 20px;
 }
 
 .ingsteg.ingsteg-dec11 {
   border: none;
-  padding-bottom: 2px;
+  padding-bottom: 15px;
   background-color: transparent;
   color: #0099ff;
 }
@@ -35,6 +35,7 @@ body {
 .container.dec11 {
   background-color: white;
   box-shadow: 5px 5px #0099ff;
+  margin-bottom: 70px;
 }
 
 p {
@@ -42,5 +43,5 @@ p {
   text-align: left;
   margin-bottom: 10px;
   padding: 0;
-  margin-top: 30px;
+  margin-top: 20px;
 }

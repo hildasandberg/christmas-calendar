@@ -19,7 +19,7 @@ p {
   padding: 10px;
   color: beige;
   margin: 0;
-  font-size: 20px;
+  font-size: 2vh;
 }
 
 h1 {
@@ -58,17 +58,16 @@ li {
 .picture.dec13{
   border-radius: 30%;
   padding: 0px 80px 50px 80px;
+	border: 0;
 }
 
 .ingsteg.dec13 {
   background-color: #ffaa00;
   border: 5px solid white;
-  height: 350px;
   width: 20%;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   margin: 10px;
-  margin-top: 140px;
 }
 
 #picturedec13 {

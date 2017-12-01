@@ -90,7 +90,7 @@ h1 {
 }
 
 .window.today:hover h1 {
-  color: yellow;
+  color: red;
 }
 
 .toprow h1 {

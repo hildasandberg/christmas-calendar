@@ -6,7 +6,6 @@ const nowPage = window.location.href
 const pageDate = nowPage.match(/dec(\d+).html/)
 
 const findDate = `dec${pageDate[1]}`
-
 // Check if date is allowed to be opened
 if (checkDate(findDate)) {
 } else {

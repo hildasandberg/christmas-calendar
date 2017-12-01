@@ -85,12 +85,13 @@ h1 {
 }
 
 .window.today:hover {
-  background: black;
+  background: red;
   opacity: 0.5;
 }
 
 .window.today:hover h1 {
-  color: red;
+  color: black;
+  font-size: 50px;
 }
 
 .toprow h1 {
@@ -100,13 +101,12 @@ h1 {
 }
 
 .window:hover {
-  background: white;
+  background: black;
   opacity: 0.5;
 }
 
 .window:hover h1{
-  color: black;
-  font-size: 45px;
+  color: white;
 }
 
 /*WHEN CLICKING ON OPEN WINDOW*/

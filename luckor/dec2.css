@@ -1,46 +1,36 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis');
-@import url('https://fonts.googleapis.com/css?family=Modak');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 
 body {
   background-color: white;
-  background-image: url(../images/bg-granar.jpg);
-  background-size: cover;
-  font-family: sans-serif;
-  font-size: 14px;
+  background-image: url(../images/bg-kula.jpg);
 }
 
 p {
   text-align: left;
-  padding: 5px;
-  color: white;
-  font-family: 'Dosis', sans-serif;
-  font-size: 18px;
+  padding: 20px;
+  color: #cc0000;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
 }
 
-.dec2 h1 {
-  font-family: 'Modak', cursive;
-  font-weight: lighter;
-  text-align: left;
-  font-size: 43px;
-  color: red;
-  margin-left: 5%;
-  display: inline-block;
-  background-color: rgba(255, 255, 255, 0.7);
-  background-color: white;
-  padding: 5px;
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-weight: normal;
+  text-align: center;
+  font-size: 45px;
+  color: #cc0000;
 }
 
 
 li, ul {
   text-align: left;
-  padding-bottom: 5px;
 }
 
-.container{
+.container {
   padding-top: 20px;
   padding-bottom: 20px;
   width:90%;
-  background: none;
+  background: white;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -48,32 +38,23 @@ li, ul {
   margin-bottom: 40px;
 }
 
-#picturedec2 {
-  background-image: url(../images/Kanelbullesockerkaka.jpg);
-  width: 40%;
-  height: 45vw;
-  background-size: cover;
+.recept {
+  width: 30%;
+  text-align: left;
+  background: none;
 }
 
-.recept.dec2 {
-  width: 60%;
-  background-color:rgba(193, 66, 66, 0.7);
-  text-align: left;
-  /*background: none;*/
-  display: flex;
-  flex-direction: row;
-  height: 45vw;
-}
-.ingsteg1 {
-  width: 30%;
-}
-.ingsteg2 {
-  width: 70%;
-  padding-right: 20px;
-}
 .ingsteg {
   background-color: white;
   border-bottom: 2px solid white;
+  width: 30%;
   text-align: center;
   margin: auto;
+  padding: 10px;
+}
+
+#picture {
+  background: url(../images/kardemummakolor.jpg);
+  width: 100%;
+  background-size: cover;
 }

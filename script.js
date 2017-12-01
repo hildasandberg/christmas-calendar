@@ -31,7 +31,7 @@ document.getElementById("close-window").onclick = () => {
   document.getElementById("windSound").muted = false
 }
 
-const todaysDate = new Date("2017-12-19")
+const todaysDate = new Date("2017-12-1")
 const dd = todaysDate.getDate()
 
 // document.getElementById(`dec${dd}`).onmouseover = () => {

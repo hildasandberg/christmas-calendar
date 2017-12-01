@@ -1,51 +1,61 @@
-#bg4 {
-    background-image: url(http://www.thinknice.com/wp-content/uploads/2012/12/Dancing-Santa-Reindeer-Funny-Christmas-GIF.gif);
+#bg16 {
+    background-image:url(https://i2.wp.com/www.gypsysoul.co.uk/wp-content/uploads/2017/11/send-christmas-ecards-zero-waste.jpg?fit=940%2C626);
+    background-repeat: repeat;
+    background-color: green;
     padding: 40px 0;
 }
 
-.container.dec4 {
-  background-color: #C21F1F;
-  width: 50%;
-  height: 100%;
-  padding: 30px;
+.container.dec16 {
+  background-color: #F1E0B1;
   font-family: ‘Cutive Mono’, monospace;
 }
 
-.recept.recept4 {
-  background-color: #3C8D0D;
-}
-
-#picdec4 {
-  background-image: url(../images/mjolkchockladbrack.jpg);
+#picdec16 {
+  background-image: url(../images/dumlekladdkaka.jpg);
   width: 100%;
   padding-top: 100%;
   background-size:cover;
 }
 
-.ingsteg.ingsteg4-left,
-.ingsteg.ingsteg4-right {
-  background-color: #8C0E0E;
+.recept.recept16 {
+  background-color: 	#5A392B;
 }
 
-.ingsteg.ingsteg4-left ul,
-.ingsteg.ingsteg4-right ol {
+.picture h1 {
+  color: #F26C1A;
+}
+
+.ingsteg.ingsteg16-left,
+.ingsteg.ingsteg16-right {
+  background-color: #7DBEA5;
+}
+
+.ingsteg.ingsteg16-left ul,
+.ingsteg.ingsteg16-right ol {
   list-style-type: none;
   padding: 0;
 }
 
-.ingsteg.ingsteg4-left ul li,
-.ingsteg.ingsteg4-right ol li {
+.ingsteg.ingsteg16-left ul li,
+.ingsteg.ingsteg16-right ol li {
   padding: 0 20px 8px 20px;
-  color: #f2f2f2;
+  color: #5A392B;
 }
 
-.ingsteg.ingsteg4-left ul p,
-.ingsteg.ingsteg4-right ol p {
-  padding: 20px;
+.ingsteg.ingsteg16-left ul p,
+.ingsteg.ingsteg16-right ol p {
+  padding: 20px 20px 50px 20px;
   font-size: 30px;
+  color: #5A392B;
   font-weight: bold;
   font-family: 'Devonshire', cursive;
   letter-spacing: 3px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
+
+body {
+  background-color: turquoise;
 }
 
 .animation {
